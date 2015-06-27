@@ -1,0 +1,26 @@
+import java.util.Scanner;
+
+public class StackDemo {
+	private static StackClass stack;
+	Scanner obj = new  Scanner(System.in);
+	public static void main(String args[]) {
+		System.out.println("Stack Demo");
+		stack = new StackClass();
+		while (true) {
+			System.out.println("(1)Insert Element");
+			System.out.println("(2)Delete Element");
+			System.out.println("(3)View Stack");
+			System.out.println("(4)Exit");
+			int input=obj.
+			switch (key) {
+			case value:
+				
+				break;
+
+			default:
+				break;
+			}
+		}
+
+	}
+}

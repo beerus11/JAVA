@@ -1,0 +1,17 @@
+public class StackDemo {
+	private StackClass stack;
+
+	public static void main(String args[]) {
+		System.out.println("Stack Demo");
+		stack = new StackClass();
+		while(true)
+		{
+		System.out.println("(1)Insert Element");
+		System.out.println("(2)Delete Element");
+		System.out.println("(3)View Stack");
+		System.out.println("(4)Exit");
+		System.out.print("Enter Size of stack");
+		}
+		
+	}
+}

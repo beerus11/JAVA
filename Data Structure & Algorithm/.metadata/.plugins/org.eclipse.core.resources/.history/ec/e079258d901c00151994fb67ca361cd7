@@ -1,0 +1,43 @@
+import java.util.EmptyStackException;
+
+public class StackDemo implements Stack {
+
+	public static final int CAPACITY=1024;
+	private int N;
+	private Object s[];
+	private int t=-1;
+	@Override
+	public int Size() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public Boolean isEmpty() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Object top() throws EmptyStackException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void push(Object element) throws Exception {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public Object pop() throws EmptyStackException {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public StackDemo() {
+		// TODO Auto-generated constructor stub
+		this(CAPACITY);
+	}
+
+}

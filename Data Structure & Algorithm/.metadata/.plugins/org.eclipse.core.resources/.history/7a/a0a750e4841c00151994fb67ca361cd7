@@ -1,0 +1,11 @@
+public interface Stack {
+	public int Size();
+
+	public Boolean isEmpty();
+
+	public Object top() throws StackOverflowException;
+
+	public void push(Object element);
+
+	public Object pop() throws StackOverflowException;
+}
